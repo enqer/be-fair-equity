@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="Scalar.AspNetCore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FairEquity.Features\FairEquity.Features.csproj" />
+    <ProjectReference Include="..\FairEquity.Infrastructure\FairEquity.Infrastructure.csproj" />
+    <ProjectReference Include="..\FairEquity.ServiceDefaults\FairEquity.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+</Project>
